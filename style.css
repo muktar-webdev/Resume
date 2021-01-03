@@ -1,0 +1,150 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+body{
+
+background-color: #eeeeee;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+.container{
+max-width: 1000px;
+background-color: #2a2dcf07;
+margin: 0 auto;
+padding: 20px;
+
+
+
+}
+
+.h1:hover{
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 2px 5px blue;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.h3:hover{
+    font-size: 30px;
+    color: black;
+    text-shadow: 2px 2px 3px #00eeff;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.profile-image{
+
+    width: 100px;
+    height: 120px;
+    border: solid 3px white;
+    border-radius: 50%;
+    float: left;
+
+}
+.profile-image:hover{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 40px 10px ;
+    transition: width 2s, height 2s, transform 2s;
+}
+.header-bio{
+
+float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+color:#11999e;
+
+}
+
+.header-contact{
+
+float:right;
+
+}
+.header-contact a{
+
+text-decoration: none;
+color:teal;
+font-weight:bold;
+
+
+}
+.header-contact a:hover{
+text-decoration: underline;
+color:purple;
+}
+.clear-div{
+
+    clear: both;
+}
+
+hr{
+border: black solid 3px;
+width: 100%;
+margin: 20px auto;
+border-bottom: none;
+
+
+}
+
+
+.left-div{
+width: 30%;
+
+float: left;
+}
+
+.right-div{
+    width: 70%;
+float: right;
+
+
+}
+.common-hr{
+width: 100%;
+border: black solid 1px;
+margin: 20px auto;
+border-bottom: none;
+
+
+}
+
+.long-div{
+width: 70%;
+float:right;
+text-decoration: bolder;
+
+}
+
+
+.bottom-container{
+
+background-color: black;
+text-align: center;
+padding: 15px;
+text-decoration-color: white;
+
+
+}
+.bottom-container a{
+
+text-decoration: none;
+color: white;
+margin: 20px;
+
+}
+.bottom-container a:hover{
+    text-decoration: underline;
+    color:purple;
+    }
+    .bottom-container p{
+        color: white;
+        margin-top: 20px;
+    }
